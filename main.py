@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 import re
 from pathlib import Path
 from decimal import Decimal, InvalidOperation
@@ -47,15 +45,12 @@ def normalize_datetime_to_date(value: str) -> str:
 
     s = str(value).strip()
 
-    # 20250625002000 -> 2025-06-25
     if re.fullmatch(r"\d{14}", s):
         return f"{s[0:4]}-{s[4:6]}-{s[6:8]}"
 
-    # 20250625 -> 2025-06-25
     if re.fullmatch(r"\d{8}", s):
         return f"{s[0:4]}-{s[4:6]}-{s[6:8]}"
 
-    # 2025-06-25 12:30:15 -> 2025-06-25
     m = re.match(r"(\d{4}-\d{2}-\d{2})", s)
     if m:
         return m.group(1)

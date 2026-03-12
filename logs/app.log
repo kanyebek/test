@@ -1,11 +1,11 @@
-2026-03-12 18:59:05.010 | INFO     | __main__:main:250 - === START ===
-2026-03-12 18:59:05.010 | INFO     | __main__:parse_pindodo_report:73 - Parsing Pindodo report: /Users/kanybek/Projects/banktest/input/Pindodo_report.txt
-2026-03-12 18:59:05.013 | INFO     | __main__:parse_pindodo_report:110 - Pindodo parsed rows: 122
-2026-03-12 18:59:05.057 | INFO     | __main__:save_df_to_excel:69 - Excel saved: /Users/kanybek/Projects/banktest/output/RpaBank_report.xlsx
-2026-03-12 18:59:05.074 | INFO     | __main__:save_df_to_excel:69 - Excel saved: /Users/kanybek/Projects/banktest/output/Pindodo_report.xlsx
-2026-03-12 18:59:05.074 | INFO     | __main__:reconcile_reports:210 - Starting reconciliation
-2026-03-12 18:59:05.078 | INFO     | __main__:reconcile_reports:226 - Successful rows: 116
-2026-03-12 18:59:05.079 | INFO     | __main__:reconcile_reports:227 - RPA unsuccessful rows: 10
-2026-03-12 18:59:05.079 | INFO     | __main__:reconcile_reports:228 - Pindodo unsuccessful rows: 6
-2026-03-12 18:59:05.116 | INFO     | __main__:save_reconciliation_result:244 - Reconciliation result saved: /Users/kanybek/Projects/banktest/output/reconciliation_result.xlsx
-2026-03-12 18:59:05.116 | INFO     | __main__:main:275 - === DONE ===
+2026-03-12 19:03:30.141 | INFO     | __main__:main:248 - === START ===
+2026-03-12 19:03:30.143 | INFO     | __main__:parse_pindodo_report:71 - Parsing Pindodo report: /Users/kanybek/Projects/banktest/input/Pindodo_report.txt
+2026-03-12 19:03:30.147 | INFO     | __main__:parse_pindodo_report:108 - Pindodo parsed rows: 122
+2026-03-12 19:03:30.209 | INFO     | __main__:save_df_to_excel:67 - Excel saved: /Users/kanybek/Projects/banktest/output/RpaBank_report.xlsx
+2026-03-12 19:03:30.227 | INFO     | __main__:save_df_to_excel:67 - Excel saved: /Users/kanybek/Projects/banktest/output/Pindodo_report.xlsx
+2026-03-12 19:03:30.227 | INFO     | __main__:reconcile_reports:208 - Starting reconciliation
+2026-03-12 19:03:30.236 | INFO     | __main__:reconcile_reports:224 - Successful rows: 116
+2026-03-12 19:03:30.236 | INFO     | __main__:reconcile_reports:225 - RPA unsuccessful rows: 10
+2026-03-12 19:03:30.236 | INFO     | __main__:reconcile_reports:226 - Pindodo unsuccessful rows: 6
+2026-03-12 19:03:30.277 | INFO     | __main__:save_reconciliation_result:242 - Reconciliation result saved: /Users/kanybek/Projects/banktest/output/reconciliation_result.xlsx
+2026-03-12 19:03:30.277 | INFO     | __main__:main:273 - === DONE ===
