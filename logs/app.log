@@ -1,0 +1,11 @@
+2026-03-12 20:31:25.676 | INFO     | __main__:main:249 - === START ===
+2026-03-12 20:31:25.677 | INFO     | __main__:parse_pindodo_report:72 - Parsing Pindodo report: /Users/kanybek/Projects/banktest/input/Pindodo_report.txt
+2026-03-12 20:31:25.680 | INFO     | __main__:parse_pindodo_report:109 - Pindodo parsed rows: 122
+2026-03-12 20:31:25.740 | INFO     | __main__:save_df_to_excel:68 - Excel saved: /Users/kanybek/Projects/banktest/output/RpaBank_report.xlsx
+2026-03-12 20:31:25.757 | INFO     | __main__:save_df_to_excel:68 - Excel saved: /Users/kanybek/Projects/banktest/output/Pindodo_report.xlsx
+2026-03-12 20:31:25.757 | INFO     | __main__:reconcile_reports:209 - Starting reconciliation
+2026-03-12 20:31:25.765 | INFO     | __main__:reconcile_reports:225 - Successful rows: 116
+2026-03-12 20:31:25.765 | INFO     | __main__:reconcile_reports:226 - RPA unsuccessful rows: 10
+2026-03-12 20:31:25.765 | INFO     | __main__:reconcile_reports:227 - Pindodo unsuccessful rows: 6
+2026-03-12 20:31:25.803 | INFO     | __main__:save_reconciliation_result:243 - Reconciliation result saved: /Users/kanybek/Projects/banktest/output/reconciliation_result.xlsx
+2026-03-12 20:31:25.803 | INFO     | __main__:main:274 - === DONE ===
