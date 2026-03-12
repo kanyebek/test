@@ -1,3 +1,4 @@
 venv
-main.spec
 build
+reconciliation_app.spec
+__pycache__

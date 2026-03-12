@@ -1,11 +1,15 @@
 import re
+import sys
 from pathlib import Path
 from decimal import Decimal, InvalidOperation
 
 import pandas as pd
 from loguru import logger
 
-BASE_DIR = Path(__file__).resolve().parent
+if getattr(sys, 'frozen', False):
+    BASE_DIR = Path(sys.executable).resolve().parent.parent
+else:
+    BASE_DIR = Path(__file__).resolve().parent
 RPA_FILE = BASE_DIR / "input" / "RpaBank_report.txt"
 PINDODO_FILE = BASE_DIR / "input" / "Pindodo_report.txt"
 OUTPUT_DIR = BASE_DIR / "output"
